@@ -1,0 +1,16 @@
+{
+  "name": "contacts-api",
+  "version": "1.0.0",
+  "description": "Lab 1 for Web Programming.",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Serenity Mapatac",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
