@@ -29,7 +29,7 @@ router.post('/create', (req, res) => {
     res.send('Contact updated: ' + JSON.stringify(updatedContact));
   });
   
-  // Delete a contact
+  // delete a contact
   router.delete('/delete', (req, res) => {
     const contactId = req.body.id;
     res.send('Contact deleted with ID: ' + contactId);
